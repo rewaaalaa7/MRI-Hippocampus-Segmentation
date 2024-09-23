@@ -31,14 +31,10 @@ The model architecture combines U-Net and LinkNet:
 - **LinkNet**: Integrated with a ResNet34 encoder for feature pyramid network (FPN) enhancement.
 
 ## Training and Evaluation
-
 The model was trained for 12 epochs with early stopping to prevent overfitting. Data augmentation techniques were applied to the dataset to improve the model's generalization.
 
 ## Results
-
 The model achieved a Dice coefficient of 0.9938 and an F1 score of 0.9938 on the validation set, demonstrating high accuracy in hippocampus segmentation.
-
-## Future Work
 
 Future work includes:
 
